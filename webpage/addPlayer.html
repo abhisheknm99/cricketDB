@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Add Player</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="addPlayer.css">
+</head>
+<body>
+   <nav class="navbar navbar-inverse fixed-to-top">
+      <div class="container">
+         <div class="navbar-header">
+           <a style="color: white;" class="navbar-brand" href="#">CRICK STARS</a>
+         </div>
+         <ul class="nav navbar-nav">
+               <li><a href="index.html">Home</a></li>
+               <!-- <li><a href="choose.html">Content</a></li>
+               <li><a href="#">About</a></li> -->
+         </ul>
+         <ul class="nav navbar-nav navbar-right">
+               <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span>Add Player</a></li>
+               <li><a href="addTeam.html"><span class="glyphicon glyphicon-user"></span>Add Team</a></li>
+         </ul>
+      </div>
+   </nav>
+      <div class="sidenav">
+         <!-- <img src="sb1.jpg" class="img-thumbnail"> -->
+      
+      </div>
+      <div class="main">
+         <div class="col-md-6 col-sm-12">
+         <div id="title1">
+            <p>Add Player<br>
+            <!-- <h4>Register here to access the content.</h4> -->
+            </p>
+         </div>
+            <div class="login-form">
+               <form class="add">
+                <p id="status"></p>
+                  <div class="form-group">
+                     <label>Jersey Number</label>
+                     <input type="text" id="jno" class="form-control" required placeholder="Jersey Number"/>
+                  </div>
+                  <div class="form-group">
+                     <label>Name</label>
+                     <input type="text" id="name" class="form-control" required placeholder="Name"/>
+                  </div>
+                  <div class="form-group">
+                     <label>Date of Birth</label>
+                     <input type="date" id="dob" class="form-control" required placeholder="DOB"/>
+                  </div>
+                  <div class="form-group">
+                     <label>Date of Joining</label>
+                     <input type="date" id="doj" class="form-control" required placeholder="DOJ"/>
+                  </div>
+                  <div class="form-group">
+                     <label>Team</label>
+                     <input type="text" id="team" class="form-control" required placeholder="Team Name"/>
+                  </div>
+                  <button type="submit" id="submitBtn" class="btn btn-success">Add Player</button>
+               </form>
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript" src="addPlayer.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url("bg1.jpg");
+}
+.cent{
+	color: white;
+	text-align: center;
+	padding-top: 20%;
+	font-family: "Calibri";
+}
